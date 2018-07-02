@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_runtime_dependency 'solidus_core', '~> 2.2.2'
-  s.add_runtime_dependency 'solidus_br_common', '~> 1.1'
   s.add_dependency 'pagseguro-oficial', '~> 2.5.0'
 
   s.add_development_dependency 'capybara', '~> 2.4'
