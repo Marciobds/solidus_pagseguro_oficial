@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'solidus_core', '>= 1.1'
   s.add_runtime_dependency 'solidus_br_common', '>= 1.1'
-  s.add_dependency 'pagseguro-oficial', '~> 2.4'
+  s.add_dependency 'pagseguro-oficial', '>= 2.4'
 
   s.add_development_dependency 'capybara', '~> 2.4'
   s.add_development_dependency 'coffee-rails', '~> 4.1', '>= 4.1.0'
