@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_pagseguro_oficial'
-  s.version     = '1.1.2'
+  s.version     = '1.1.3'
   s.summary     = 'Solidus Extension to PagSeguro integration'
   s.description = s.summary
-  s.required_ruby_version = '>= 2.2.2'
+  s.required_ruby_version = '>= 2.6.3'
 
   s.author    = 'Diego Domingues'
   s.email     = 'diego.domingues16@gmail.com'
@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'solidus_core', '~> 2.2.2'
+  s.add_runtime_dependency 'solidus_core', '~> 2.10.2'
   s.add_dependency 'pagseguro-oficial', '~> 2.5.0'
 
   s.add_development_dependency 'capybara', '~> 2.4'
-  s.add_development_dependency 'coffee-rails', '~> 4.1', '>= 4.1.0'
+#  s.add_development_dependency 'coffee-rails', '~> 4.1', '>= 4.1.0'
   s.add_development_dependency 'database_cleaner', '~> 1.5', '>= 1.5.1'
   s.add_development_dependency 'factory_girl', '~> 4.5'
   s.add_development_dependency 'ffaker'
