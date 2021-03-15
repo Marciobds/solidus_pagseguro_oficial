@@ -1,4 +1,4 @@
-class CreateSpreePagseguroCheckouts < ActiveRecord::Migration
+class CreateSpreePagseguroCheckouts < ActiveRecord::Migration[4.2]
   def change
     create_table :spree_pagseguro_checkouts do |t|
       t.string :transaction_id
